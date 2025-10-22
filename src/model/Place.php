@@ -11,6 +11,8 @@
       'name',        // string
       'type',        // string
       'address',     // string
+      'city',        // string
+      'label',       // string
       'postal_code', // int
       'latitude',    // float
       'longitude'    // float
