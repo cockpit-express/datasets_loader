@@ -1,3 +1,9 @@
+## Libraries
+
+`illuminate/database` (Eloquent ORM)
+`vlucas/phpdotenv`
+`phpoffice/phpspreadsheet`
+
 ## Project tree
 
 ```

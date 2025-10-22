@@ -3,5 +3,7 @@
   require __DIR__ . '/../bootstrap.php';
 
   use Script\StationsImport;
+  use Script\PlacesImport;
 
-  StationsImport::run();
+  // StationsImport::run();
+  PlacesImport::run();
