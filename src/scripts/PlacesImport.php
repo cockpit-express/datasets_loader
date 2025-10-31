@@ -90,6 +90,8 @@
           $address = trim($row[2] ?? '');
           $latitude = isset($row[45]) ? floatval($row[45]) : null;
           $longitude = isset($row[46]) ? floatval($row[46]) : null;
+          $region_code = trim($row[19] ?? '');
+          $departement_code = trim($row[18] ?? '');
 
           if (
             (
@@ -150,7 +152,9 @@
               'label' => $label,
               'city' => $city,
               'latitude' => $latitude,
-              'longitude' => $longitude
+              'longitude' => $longitude,
+              'region_code' => $region_code,
+              'departement_code' => $departement_code,
             ]
           );
 

@@ -10,6 +10,6 @@
       'name',      // string
       'latitude',  // float
       'longitude', // float
-      'city_code'  // int
+      'postal_code'  // int
     ];
   }

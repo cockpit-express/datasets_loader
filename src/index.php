@@ -5,5 +5,5 @@
   use Script\StationsImport;
   use Script\PlacesImport;
 
-  // StationsImport::run();
-  PlacesImport::run();
+  StationsImport::run();
+  // PlacesImport::run();
